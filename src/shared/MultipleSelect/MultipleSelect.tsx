@@ -28,10 +28,7 @@ export const MultipleSelect = () => {
       </div>
       <button
         className={style.btn}
-        onClick={useCallback(
-          () => setIsDropdownOpen(!isDropdownOpen),
-          [setIsDropdownOpen, isDropdownOpen]
-        )}>
+        onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
         <TriangleIcon className={cn({ [style.iconDown]: isDropdownOpen })} />
       </button>
       <Dropdown isOpen={isDropdownOpen} data={defaultData} />

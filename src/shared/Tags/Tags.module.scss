@@ -1,0 +1,22 @@
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+  border-radius: 0.8rem;
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  border: unset;
+  cursor: pointer;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}

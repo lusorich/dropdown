@@ -1,0 +1,48 @@
+.text {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  padding-left: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.checkbox {
+  cursor: pointer;
+  background: unset;
+  padding: 0;
+  margin: 0;
+  border: unset;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem;
+  border-bottom: 0.1rem solid var(--color-black-100);
+  cursor: pointer;
+
+  &:last-child {
+    border-bottom: unset;
+    padding-bottom: 0;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  transition: all 0.1s;
+}
+
+.icon {
+  svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+.itemWrapper {
+  display: flex;
+  max-width: 80%;
+}

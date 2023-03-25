@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  width: 40rem;
+  height: 4rem;
+  border: 0.1rem solid var(--color-grey);
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  border: unset;
+  background: unset;
+  margin-left: auto;
+  min-width: 5rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconDown {
+  transform: rotate(180deg);
+}
+
+.tags {
+  display: flex;
+  gap: 0.4rem;
+  padding: 1rem;
+  max-width: 90%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1rem;
+}
+
+.defaultText {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: var(--color-grey);
+  user-select: none;
+}

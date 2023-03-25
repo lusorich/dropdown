@@ -1,0 +1,33 @@
+.search {
+  display: flex;
+  width: 36.8rem;
+  height: 4rem;
+  min-height: 4rem;
+  margin: 1.6rem 1.6rem 0 1.6rem;
+  background: var(--color-black-100);
+  border-radius: 1rem;
+}
+
+.input {
+  width: 100%;
+  position: relative;
+  background: var(--color-black-100);
+  border: unset;
+  border-radius: 1rem;
+  outline: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  &::placeholder {
+    color: var(--color-grey);
+  }
+}
+
+.inputIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 5rem;
+}

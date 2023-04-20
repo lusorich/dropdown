@@ -1,7 +1,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/9456c0a6aea2fb1216de/maintainability)](https://codeclimate.com/github/lusorich/dropdown/maintainability)
 
-## [Проект на Render](https://dropdown.onrender.com/)
-
 ## Команды для установки и запуска проекта:
 
 - `npm install` — для установки зависимостей,
